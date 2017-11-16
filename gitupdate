@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "Enter comment: " comment
+git add .
+git commit -m "$comment"
+git push -u origin master
+echo "Github updated"
